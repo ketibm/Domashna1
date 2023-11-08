@@ -6,9 +6,9 @@ let hasMilk = true;
 let boolA = hasTea || hasMilk;
 let boolB = hasCoffe && hasTea;
 let boolC = !hasTea;
-let boolD = [hasCoffe || hasMilk, !(hasCoffe && hasMilk)];
-let boolE = [(hasTea && hasMilk) || (hasCoffe && hasTea)];
-let boolF = !(hasCoffe, hasTea);
+let boolD =(hasCoffe || hasMilk) && !(hasCoffe && hasMilk);
+let boolE = (hasTea && hasMilk) || (hasCoffe && hasTea);
+let boolF = !(hasCoffe && hasTea);
 
 console.log(boolA);
 console.log(boolB);
